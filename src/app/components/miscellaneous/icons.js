@@ -1,0 +1,27 @@
+let iconsArr = [
+  { name: "HTML5", link: "/icons/html.png", color: "#f1f1f1" },
+  { name: "CSS3", link: "/icons/css.png", color: "#deeefc" },
+  { name: "Javascript", link: "/icons/javascript.png", color: "#f7f3d0" },
+  // { name: "Typescript", link: "/icons/typescript.png" },
+  { name: "C++", link: "/icons/cpp.png", color: "#ceecf5" },
+  // { name: "Java", link: "/icons/java.png", color: "#ebebf7" },
+  { name: "Bootstrap", link: "/icons/bootstrap.png", color: "#F0E8FB" },
+  { name: "Tailwind CSS", link: "/icons/tailwind.png" },
+  // { name: "NextJS", link: "/icons/nextjs.png", color: "#ededed" },
+  { name: "ReactJS", link: "/icons/react.png", color: "#caf2fa" },
+  { name: "Redux", link: "/icons/redux.png", color: "#F0E8FB" },
+  { name: "Chakra UI", link: "/icons/chakra.png", color: "#dff3f5" },
+  { name: "Expressjs", link: "/icons/express.png" },
+  { name: "MongoDB", link: "/icons/mongodb.png", color: "#dff3f5" },
+  // { name: "MySQL", link: "/icons/mysql.png", color: "#deeefc" },
+  { name: "Nodejs", link: "/icons/nodejs.png" },
+  // { name: "Prisma", link: "/icons/prisma.png", color: "#dff3f5" },
+  { name: "Postman", link: "/icons/postman.png" },
+  // { name: "Docker", link: "/icons/docker.png" },
+  { name: "Git", link: "/icons/git.png", color: "#f7ddd5" },
+  { name: "GitHub", link: "/icons/github.png" },
+  // { name: "Figma", link: "/icons/figma.png" },
+  // { name: "Python", link: "/icons/python.png" },
+];
+
+module.exports = { iconsArr };
