@@ -57,7 +57,7 @@ const Home = ({ lightMode, setLightMode }) => {
       </Box>
       <Box pl={["1.5rem", "3rem", "5rem"]} pr={["1.5rem", "3rem", "5rem"]}>
         <HStack w={"100%"} h={"100%"} alignItems={"flex-start"}>
-          <Box w={"55%"} fontFamily={"Rubik"} pt={"7rem"} h={"100%"}>
+          <Box w={"55%"} fontFamily={"Rubik"} pt={"5rem"} h={"100%"}>
             <Box>
               <Box
                 display={["block", "flex", "flex"]}
@@ -82,13 +82,13 @@ const Home = ({ lightMode, setLightMode }) => {
                 <Box
                   position={"absolute"}
                   zIndex={-1}
-                  left={"4.1rem"}
-                  top={"33rem"}
+                  left={"1.1rem"}
+                  top={"35rem"}
                   bottom={["21.5rem", "22.5rem", "10.5rem"]}
                 >
                   <Text
                     fontWeight={"600"}
-                    fontSize={["1rem", "4.5rem", "4.5rem"]}
+                    fontSize={["1.7rem", "4.5rem", "4.5rem"]}
                     color={lightMode ? "#e2dcdc" : "#3f3e3e"}
                     transition={"0.7s all"}
                     textShadow={lightMode ? null : "0px 0px #5b5b5b"}

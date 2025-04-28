@@ -41,12 +41,21 @@ const Skills = ({ lightMode }) => {
         <Text fontSize={"2.4rem"}>SKILLS</Text>
       </Box>
 
-      <Box mt={"7rem"} mb={"2rem"} width="100%" overflow="hidden" position="relative">
+      <Box
+        mt={"7rem"}
+        mb={"2rem"}
+        width="100%"
+        overflow="hidden"
+        position="relative"
+      >
         <Box
           display="flex"
           alignItems="center"
-          animation="marquee 20s linear infinite"
           css={{
+            animation: "marquee 8s linear infinite",
+            "@media (max-width: 768px)": {
+              animation: "marquee 4s linear infinite", // <-- faster on mobile
+            },
             "@keyframes marquee": {
               "0%": { transform: "translateX(0%)" },
               "100%": { transform: "translateX(-50%)" },
