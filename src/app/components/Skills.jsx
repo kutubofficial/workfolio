@@ -21,7 +21,7 @@ const Skills = ({ lightMode }) => {
       overflow="hidden"
     >
       <Box
-        pt={["4rem", "3rem", "2rem"]}
+        pt={["0rem", "3rem", "2rem"]}
         w={"100%"}
         fontWeight={"700"}
         fontSize={"2.5rem"}

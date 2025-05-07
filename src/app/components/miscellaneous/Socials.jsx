@@ -75,7 +75,7 @@ const Socials = ({ lightMode, setLightMode }) => {
           </Text>
         </Box>
       </Link>
-      <Link href={'https://wa.me/8601657441'} target="_blank">
+      <Link href={'https://wa.me/+918601657441'} target="_blank">
         <Box
           bgColor={lightMode ? "#fff" : "#333"}
           border={lightMode ? "0.01rem solid #d1d1d1" : "0.01rem solid #555"}
