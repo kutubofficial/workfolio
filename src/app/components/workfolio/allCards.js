@@ -1,15 +1,24 @@
 const data = [
   {
     key: 1,
+    title: "Task Management System",
+    description:
+      "A web-based task management system that allows users to CRUD, and track tasks for better productivity and organization",
+    image: "/images/task.png",
+    link: "https://github.com/kutubofficial/Task-Management-System",
+    view: "https://task-management-system-nine-rosy.vercel.app",
+  },
+  {
+    key: 2,
     title: "World Atlas",
     description:
-      "An interactive world map showcasing countries and their details.",
-    image: "/images/world.PNG",
+      "A dynamic and interactive web app built with React and Tailwind CSS, providing detailed information about countries, their geography, population, and more",
+    image: "/images/atlas.png",
     link: "https://github.com/kutubofficial/World-Atlas",
     view: "https://world-atlas599.netlify.app/",
   },
   {
-    key: 2,
+    key: 3,
     title: "Redux-ecommerce App",
     description:
       "A fully functional e-commerce application built with React and Redux for state management.",
@@ -18,16 +27,16 @@ const data = [
     view: "https://redux-ecommerce-app599.vercel.app/",
   },
   {
-    key: 3,
+    key: 4,
     title: "Real-time Crypto Tracker",
     description:
       "Real-Time Crypto Dashboard built with React, Tailwind CSS, and Redux Toolkit.",
-    image: "/images/crypto.png",
+    image: "/images/price.png",
     link: "https://github.com/kutubofficial/Real-time-crypto-tracker",
     view: "https://real-time-crypto599.netlify.app/",
   },
   {
-    key: 4,
+    key: 5,
     title: "Login/Signup Authentication",
     description:
       "A full-stack authentication system with React frontend and Node.js backend.",
@@ -36,16 +45,16 @@ const data = [
     view: "https://login-auth599.netlify.app/",
   },
   {
-    key: 5,
+    key: 6,
     title: "Slot Booking",
     description:
-      "A slot booking system where users can select available slots.",
+      "A React-based app for booking, updating, and managing time slots. Users can book a slot, view all slots in a dashboard",
     image: "/images/slot.jpg",
     link: "https://github.com/kutubofficial/slot-booking",
     view: "https://slot-booking599.netlify.app/",
   },
   {
-    key: 6,
+    key: 7,
     title: "Landing Page",
     description:
       "A simple, responsive landing page built with React and Tailwind CSS.",
@@ -54,16 +63,16 @@ const data = [
     view: "https://landing-page599.vercel.app/",
   },
   {
-    key: 7,
-    title: "Todo App",
+    key: 8,
+    title: "Restaurant Management System",
     description:
-      "A simple todo list app built with React.js and styled with CSS.",
-    image: "/images/todo.PNG",
-    link: "https://github.com/kutubofficial/Todo-App",
-    view: "https://todo-app599.netlify.app/",
+      "A restaurant management system for handling orders and customers.",
+    image: "/images/restaurant.png",
+    link: "https://github.com/kutubofficial/Restaurant-Management-System",
+    view: "https://restaurant-app599.netlify.app/",
   },
   {
-    key: 8,
+    key: 9,
     title: "User Hive",
     description:
       "A user authentication app with signup and login functionality.",
@@ -72,31 +81,31 @@ const data = [
     view: "https://user-hive599.netlify.app/",
   },
   {
-    key: 9,
+    key: 10,
     title: "Qshop Shopping App",
     description:
       "A basic shopping app where users can add items to their cart.",
-    image: "/images/shopping.png",
+    image: "/images/cart.png",
     link: "https://github.com/kutubofficial/QShop-Shopping-App",
     view: "https://qshop599.netlify.app/",
   },
   {
-    key: 10,
-    title: "Restaurant Management System",
+    key: 11,
+    title: "Todo App",
     description:
-      "A restaurant management system for handling orders and customers.",
-    image: "/images/restaurant5.jpg",
-    link: "https://github.com/kutubofficial/Restaurant-Management-System",
-    view: "https://restaurant-app599.netlify.app/",
+      "A simple todo list app built with React.js and styled with CSS.",
+    image: "/images/todo.PNG",
+    link: "https://github.com/kutubofficial/Todo-App",
+    view: "https://todo-app599.netlify.app/",
   },
   {
-    key: 11,
-    title: "PopX App",
+    key: 12,
+    title: "Age Calculator",
     description:
-      "A social media app with interactive features, built using React.",
-    image: "/images/popx.webp",
-    link: "https://github.com/kutubofficial/PopX-App",
-    view: "https://proxapp.netlify.app/",
+      "A simple web application that allows users to calculate their exact age in years, months, and days by entering their date of birth.",
+    image: "/images/calculator.png",
+    link: "https://github.com/kutubofficial/age-calculator",
+    view: "https://age-calculator599.netlify.app/",
   },
 ];
 
