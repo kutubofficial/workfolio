@@ -25,7 +25,7 @@ const Navbar = ({ lightMode, setLightMode }) => {
             fontFamily={"Poppins"}
             position={"relative"}
           >
-            <Link _hover={{ textDecorationStyle: "none" }}>PORTFOLIO</Link>
+            <Link _hover={{ textDecorationStyle: "none" }}>Kutub's folio</Link>
           </Text>
         </Box>
       </Box>
